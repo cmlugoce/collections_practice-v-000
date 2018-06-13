@@ -31,8 +31,10 @@ describe 'collections practice' do
   end
  # Advanced Question 4 
  describe 'swap_elements_from_to' do 
-   it 'specify the index of the element you would like to move to a new index' do 
-     expect(swap_elements_from_to(["c", "b", "a"], 0, 2)).to eq(["a", "c", "b"])
+   it 'swap elements and allos to specify the index of the element you would like to move to a new index' do 
+     expect(swap_elements_from_to(["one", "two", "three"], 0, 2)).to eq(["one", "three", "two"])
+   end 
+  end 
  
   # Question 5
   describe '#reverse_array' do
