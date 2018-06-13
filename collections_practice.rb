@@ -30,4 +30,6 @@ end
 
 #advanced question 
 def swap_elements_from_to (array, index, destination_index)
-  
+  array[index], array[new_index] = array[new_index], array[index]
+return array 
+end 
