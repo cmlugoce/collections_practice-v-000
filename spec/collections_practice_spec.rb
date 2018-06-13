@@ -31,7 +31,8 @@ describe 'collections practice' do
   end
  # Advanced Question 4 
  describe 'swap_elements_from_to' do 
-   it ''
+   it 'specify the index of the element you would like to move to a new index' do 
+     expect(swap_elements_from_to([]))
  
   # Question 5
   describe '#reverse_array' do
