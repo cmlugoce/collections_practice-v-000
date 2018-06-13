@@ -34,6 +34,10 @@ def swap_elements_from_to (array, index, new_index)
 return array 
 end 
 
+def rever_array(array_integers)
+  array_integers.reverse
+end 
+
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
