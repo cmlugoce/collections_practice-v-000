@@ -34,3 +34,5 @@ def swap_elements_from_to (array, index, new_index)
 return array 
 end 
 
+def kesha_maker(array)
+  
